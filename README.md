@@ -24,16 +24,17 @@ TensorFlow and Keras: For building and training neural network models.
 Scikit-learn: Used for preprocessing data and implementing baseline classifiers.
 Pandas and NumPy: For data manipulation and numerical computations.
 Matplotlib: For visualizing data and results.
-#Results
-##Nearest Neighbor Classifier (NNC):
+
+# Results
+## Nearest Neighbor Classifier (NNC):
 
 Wealth Classification: Achieved an accuracy of 76.04%. This model had a fair performance but struggled with some imbalances in the dataset, as indicated by the confusion matrix.
 Self-Made vs. Inherited Wealth: Reached a higher accuracy of 83.33%. The model was more effective in this classification, possibly due to more distinct features distinguishing these categories.
-##Nearest Neighbor Classifier (NNC):
+## Nearest Neighbor Classifier (NNC):
 
 Wealth Classification: Demonstrated a lower accuracy of 39.58%. This indicates that the centroid-based approach was less effective for this dataset, likely due to overlapping feature spaces among classes.
 Self-Made vs. Inherited Wealth: Improved accuracy to 67.71%, but still less effective compared to the NNC, suggesting that centroid-based classification is less suited for this data.
-##Neural Network (NN) Models:
+## Neural Network (NN) Models:
 
 Wealth Classification: Varied accuracies (41.67% to 75.00%) across different attempts. The fluctuating performance might be due to overfitting or the complexity of the dataset. The highest accuracy (75.00%) indicates potential with further tuning.
 Self-Made vs. Inherited Wealth: More consistent performance, with accuracies ranging from 65.62% to 82.29%. This shows that NN models are relatively more effective for this classification task, with the highest accuracy models likely capturing the underlying patterns well.
