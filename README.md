@@ -38,4 +38,4 @@ Self-Made vs. Inherited Wealth: Improved accuracy to 67.71%, but still less effe
 
 Wealth Classification: Varied accuracies (41.67% to 75.00%) across different attempts. The fluctuating performance might be due to overfitting or the complexity of the dataset. The highest accuracy (75.00%) indicates potential with further tuning.
 Self-Made vs. Inherited Wealth: More consistent performance, with accuracies ranging from 65.62% to 82.29%. This shows that NN models are relatively more effective for this classification task, with the highest accuracy models likely capturing the underlying patterns well.
-Specifically, the Neural Network (NN) models were uniquely tailored to account for the imbalance within the dataset, a crucial step that was not mirrored in the other models used (such as the Nearest Neighbor Classifier and Nearest Class Centroid Classifier).
+- Specifically, the Neural Network (NN) models were uniquely tailored to account for the imbalance within the dataset (with Class weights), a crucial step that was not mirrored in the other models used (such as the Nearest Neighbor Classifier and Nearest Class Centroid Classifier).
